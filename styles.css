@@ -21,6 +21,7 @@ body{
     min-height: 50vh;
     border-radius: 15px;
     background-color: #fff; 
+    box-shadow: 3px 3px 30px hsl(0, 1%, 21%);
 }
 .cover-photo{
     border-radius: 15px 15px 0 0;
