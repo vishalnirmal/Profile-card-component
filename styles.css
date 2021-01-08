@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(0, 0%, 59%);
+    background: bottom 37vh right 50vw url('images/bg-pattern-top.svg') no-repeat, 
+    top 50vh left 50vw url('images/bg-pattern-bottom.svg') no-repeat,
+    hsl(185, 75%, 39%);
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    position: relative;
+    width: 350px;
+    min-height: 50vh;
+    border-radius: 15px;
+    background-color: #fff; 
+}
+.cover-photo{
+    border-radius: 15px 15px 0 0;
+}
+.profile-picture{
+    border-radius: 50%;
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 92px;
+    border: #fff solid 5px;
+}
+.details{
+    text-align: center;
+    margin: 4rem auto 2rem;
+}
+.name, .stats{
+    font-weight: 700;
+    color: black;
+    margin: 0;
+}
+.city{
+    font-size: 14px;
+}
+.stat-tags{
+    font-size: 12px;
+    margin: 5px auto;
+}
+.name-age{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.name-age > p{
+    margin: 0 0.3rem;
+}
+.stats-box{
+    border-top: 1px solid hsl(0, 0%, 59%, 0.3);
+    display: flex;
+    padding: 1.5rem;   
+}
+.stats-box > div{
+    flex-grow: 1;
+    text-align: center;
+    width: 30%; 
+    margin: 1rem 0.75rem;
+}
